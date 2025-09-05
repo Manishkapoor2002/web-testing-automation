@@ -1,0 +1,13 @@
+{
+  "name": "epam-test-project",
+  "version": "1.0.0",
+  "description": "Playwright tests for EPAM website",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.0",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
