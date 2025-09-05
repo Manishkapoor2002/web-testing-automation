@@ -1,0 +1,19 @@
+{
+  "name": "web-testing-automation",
+  "version": "1.0.0",
+  "description": "Web Testing Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.3",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
