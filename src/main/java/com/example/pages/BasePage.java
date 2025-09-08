@@ -1,0 +1,1 @@
+package com.example.pages;\n\nimport org.openqa.selenium.WebDriver;\n\npublic abstract class BasePage {\n    protected WebDriver driver;\n\n    public BasePage(WebDriver driver) {\n        this.driver = driver;\n    }\n}
