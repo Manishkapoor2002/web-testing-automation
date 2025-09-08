@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trading Website Test Suite" parallel="classes" thread-count="5">
+    <test name="UI Tests">
+        <classes>
+            <class name="com.tradingwebsite.tests.LoginTest" />
+            <class name="com.tradingwebsite.tests.WithdrawalRequestTest" />
+            <class name="com.tradingwebsite.tests.WithdrawalStatusTest" />
+            <class name="com.tradingwebsite.tests.PendingWithdrawalCancellationTest" />
+            <class name="com.tradingwebsite.tests.WithdrawalNotificationTest" />
+            <class name="com.tradingwebsite.tests.BankAccountDetailsSetupTest" />
+            <class name="com.tradingwebsite.tests.EmailConfirmationTest" />
+        </classes>
+    </test>
+    <test name="API Tests">
+        <classes>
+            <class name="com.tradingwebsite.tests.AuthApiTest" />
+        </classes>
+    </test>
+</suite>
