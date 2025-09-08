@@ -1,0 +1,1 @@
+package com.example.tests;\n\nimport org.testng.annotations.Test;\n\npublic class OnlineStatusTest extends BaseTest {\n\n    @Test\n    public void testViewOnlineStatusInFriendsList() {\n        // Implement the test case for viewing online status in friends list\n    }\n\n
