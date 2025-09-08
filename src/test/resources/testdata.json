@@ -1,0 +1,20 @@
+{
+  "validUser": "testuser",
+  "validPassword": "password123",
+  "invalidUser": "invaliduser",
+  "invalidPassword": "wrongpassword",
+  "validAccountDetails": {
+    "accountNumber": "123456789",
+    "bankName": "Test Bank",
+    "ifscCode": "TEST0001234"
+  },
+  "invalidAccountDetails": {
+    "accountNumber": "",
+    "bankName": "",
+    "ifscCode": ""
+  },
+  "withdrawalAmounts": {
+    "validAmount": "100",
+    "invalidAmount": "1000"
+  }
+}
