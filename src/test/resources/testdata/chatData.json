@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "sender": "validUser",
+      "receiver": "friendUser",
+      "content": "Hello, how are you?"
+    },
+    {
+      "sender": "friendUser",
+      "receiver": "validUser",
+      "content": "I'm good, thanks!"
+    }
+  ]
+}
