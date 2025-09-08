@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" parallel="tests" thread-count="5">
+    <test name="UI Tests">
+        <classes>
+            <class name="com.automation.tests.LoginTest"/>
+            <class name="com.automation.tests.ChatTest"/>
+            <class name="com.automation.tests.NotificationTest"/>
+            <class name="com.automation.tests.StatusTest"/>
+            <class name="com.automation.tests.BlockUserTest"/>
+            <class name="com.automation.tests.DeleteMessageTest"/>
+            <class name="com.automation.tests.MultimediaTest"/>
+        </classes>
+    </test>
+    <test name="API Tests">
+        <classes>
+            <class name="com.automation.tests.AuthApiTest"/>
+        </classes>
+    </test>
+</suite>
