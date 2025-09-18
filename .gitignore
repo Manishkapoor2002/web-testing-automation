@@ -1,0 +1,19 @@
+# Node
+node_modules/
+package-lock.json
+
+# Playwright
+playwright-report/
+playwright/.cache/
+.test-results/
+**/test-results/
+reports/
+
+# Environment
+.env
+.env.*.local
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
