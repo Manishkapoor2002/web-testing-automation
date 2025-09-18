@@ -1,0 +1,33 @@
+{
+  "name": "web-testing-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright Test Automation Framework for UI and API",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm || true",
+    "prepare": "husky install || true",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "test": "playwright test",
+    "test:ui": "playwright test --project chromium --grep @ui",
+    "test:api": "playwright test --grep @api",
+    "test:all": "playwright test",
+    "test:ci": "node ./utils/ci-runner.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.47.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.6.2",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
