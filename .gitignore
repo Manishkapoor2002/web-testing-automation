@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+playwright/.meteor/
+.test-results/
+results/
+reports/
+report/
+trace.zip
+*.trace.zip
+*.webm
+*.mp4
+*.png
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
